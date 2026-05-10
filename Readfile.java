@@ -42,7 +42,6 @@ public class Readfile {
 	        	
 	        	 for (String word : words)
 	        	 {
-                     // Remove punctuation if you want to count only letters/numbers
                      String cleanWord = word.replaceAll("[^a-zA-Z0-9]", "");
                      if (cleanWord.length() > longestWord.length())
                      {
